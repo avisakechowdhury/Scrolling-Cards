@@ -1,0 +1,33 @@
+
+body {
+    background-color: #f1ecec; 
+}
+.parent-box{
+    display: flex;
+    justify-content: space-around;
+}
+.child-box{
+    margin: 40px;
+}
+.right-div {
+    padding: 20px;
+    width: 500px;
+    /* height: 400px; */
+    margin: 20px;
+}
+
+.carousel-indicators li {
+     width: 10px;
+     height: 10px;
+     border-radius: 50%;
+     margin: 0 3px;
+     cursor: pointer;
+     background-color: orange;
+}
+.carousel-indicators .active {
+background-color: #ff4500; 
+}
+.card-body{
+
+    height: 250px;
+}

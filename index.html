@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <title>Animated Scrolling Cards</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="parent-box">
+    <div class="child-box">
+      <h5>From The Students ...</h5>
+    </div>
+
+    <div class="right-div child-box">
+      <div id="cardCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="card">
+              <div class="card-body">
+                
+                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam, iusto ad non delectus laborum corporis quidem perspiciatis velit possimus quaerat inventore iure minima nihil sed ipsum molestias exercitationem nulla similique?</p>
+                <h5 class="card-title">Person 1</h5>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+              <div class="card-body">
+                
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum animi magni, provident nihil facere, ab quis quidem aliquam similique laudantium architecto expedita necessitatibus qui ea aut minus molestias, error cum.</p>
+                <h5 class="card-title">Person 2</h5>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+              <div class="card-body">
+                
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit quisquam suscipit tempore magnam! Totam magni fugiat hic sit soluta nam similique sunt explicabo velit dolorum. Error veritatis omnis similique sunt!</p>
+                <h5 class="card-title">Person 3</h5>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+              <div class="card-body">
+                
+                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, similique? Non culpa, ab hic accusamus est, ut necessitatibus amet obcaecati ipsum optio quaerat mollitia suscipit delectus sint minima laudantium sit.</p>
+                <h5 class="card-title">Person 4</h5>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="card">
+              <div class="card-body">
+                
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas dolor repellendus esse consequatur eos ducimus, rem cum, culpa doloribus officia laboriosam iste, quo ab placeat. Quisquam impedit repellendus amet quasi!</p>
+                <h5 class="card-title">Person 5</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+
+        <ol class="carousel-indicators">
+          <li data-target="#cardCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#cardCarousel" data-slide-to="1"></li>
+          <li data-target="#cardCarousel" data-slide-to="2"></li>
+          <li data-target="#cardCarousel" data-slide-to="3"></li>
+          <li data-target="#cardCarousel" data-slide-to="4"></li>
+        </ol>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script>
+      $("#cardCarousel").carousel({
+        interval: 3000, 
+      });
+    </script>
+</body>
+
+</html>
